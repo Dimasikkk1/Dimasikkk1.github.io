@@ -1,0 +1,142 @@
+.section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+.content {
+    margin-top: 2rem;
+}
+
+.img-brand {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+}
+
+.header {
+    background-image: url('../img/header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+.description {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: auto;
+    padding: 2rem;
+}
+.description p {
+    color:#666;
+    font-size: 20px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: #000;
+}
+
+.bvi-show {
+    display: none;
+}
+
+.main h3, .main h4, .main h5 {
+    color: #666;
+}
+
+.price {
+    margin-top: 1rem;
+}
+
+.media img {
+    width: 8rem;
+    height: 8rem;
+}
+.review-r {
+    text-align: right;
+}
+
+.btn-enroll {
+    position: fixed;
+    right: 1rem;
+    bottom: 0;
+}
+
+.border-btm-none {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+@media (max-width: 575.98px) {
+    .reviews {
+        text-align: justify;
+    }
+    .review-r {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .reviews {
+        text-align: justify;
+    }
+    .review-r {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about .carousel-item img {
+        height: 30rem;
+    }
+    
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about .carousel-item img {
+        height: 35rem;
+    }
+
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+@media (min-width: 1200px) {
+    .section {
+        padding: 4rem 0 4rem 0;
+    }
+    .content {
+        margin-top: 4rem;
+    }
+
+    .about .carousel-item img {
+        height: 45rem;
+    }
+
+    .price {
+        margin-top: 4rem;
+    }
+    
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}

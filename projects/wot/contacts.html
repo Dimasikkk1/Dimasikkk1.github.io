@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="container navbar navbar-expand-md navbar-dark fixed-top">
+            <button class="navbar-toggler bg-dark ml-auto mt-3 mr-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 px-5">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #fff;" href="index.html">ГЛАВНАЯ</a>
+                        <div class="line-orange"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #fff;" href="about.html">ОБ ИГРЕ</a>
+                        <div class="line-orange"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #fff;" href="howtoplay.html">КАК НАЧАТЬ ИГРАТЬ</a>
+                        <div class="line-orange"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active-link" style="color: #fff;" href="contacts.html">КОНТАКТЫ</a>
+                        <div class="line-orange"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="bg-fill" style="background-image: url('img/headers/4.jpg');">
+            <div style="position: relative; width: 100%; height: 100%;">
+                <div class="mask"></div>
+                <div class="header-description row">
+                    <div class="col-12 col-md-7">
+                        <div class="h1">НИКОГДА НЕ СДАВАЙСЯ!</div>
+                        <p class="mt-4">
+                            Игра использует бизнес-модель free-to-play. Изначально декларировалось только бесплатное скачивание клиента и бесплатный вход в игру.
+                        </p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h6>КОНТАКТЫ</h6>
+                <p class="p-size">
+                    Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Не следует, однако забывать, что сложившаяся структура организации играет важную роль в формировании существенных финансовых и административных условий. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+                </p>
+                <form action="mailto:veslo2000@bk.ru" method="POST">
+                    <div class="form-group row">
+                        <label class="p-size col-lg-5 col-md-4 col-sm-4 text-sm-right text-left bold my-auto" for="name">Как вас зовут</label>
+                        <input class="form-control col-lg-4 col-md-6 col-sm" type="text" name="name" id="name" placeholder="Введите имя" required>
+                        <div class="col-lg"></div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="p-size col-lg-5 col-md-4 col-sm-4 text-sm-right text-left bold my-auto" for="email">Email</label>
+                        <input class="form-control col-lg-4 col-md-6 col-sm" type="email" name="email" id="email" placeholder="text@mail.ru" required>
+                        <div class="col-lg"></div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="p-size col-lg-5 col-md-4 col-sm-4 text-sm-right text-left bold my-auto">Множественный выбор</label>
+                        <div class="col-lg-4 col-md-6 col-sm">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="problems" id="problems">
+                                <label class="form-check-label p-size" for="problems">Тех. Проблемы</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="tank" id="tank">
+                                <label class="form-check-label p-size" for="tank">Застрял танк</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="forum" id="forum">
+                                <label class="form-check-label p-size" for="forum">Форумные проблемы</label>
+                            </div>
+                        </div>
+                        <div class="col-lg"></div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="p-size col-lg-5 col-md-4 col-sm-4 text-sm-right text-left bold my-auto" for="problem_description">Проблема</label>
+                        <textarea class="form-control col-lg-4 col-md-6 col-sm" name="problem_description" id="problem_description" rows="6" placeholder="Опишите вашу проблему" required></textarea>
+                        <div class="col-lg"></div>
+                    </div>
+                    <div class="form-group text-center">
+                        <input class="btn btn-light" type="submit" value="Отправить">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="text-center">
+            <span>© Головин Дмитрий, 2020 г.</span>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

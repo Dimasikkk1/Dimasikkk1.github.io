@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/Century\ Gothic.ttf');
+}
+
+a:link { text-decoration: none; }
+
+p {
+    text-indent: 2rem;
+}
+
+body {
+    font-family: 'Century Gothic';
+    background-color: #F8F8F8;
+}
+
+.content {
+    padding: 4rem;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    border-radius: 0 0 1rem 1rem;
+    background-color: #1E1E1E;
+    transition: all ease-in-out 0.5s;
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+.brand {
+    width: 8rem;
+}
+
+.nav-link {
+    color: #f07c00 !important;
+    background-image: linear-gradient(#f07c00, #f07c00);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+}
+
+.nav-link:hover, .active {
+    background-size: 100% 2px;
+}
+
+.slider {
+    margin-top: 5rem;
+}
+
+.slider-mask {
+    position: absolute;
+    border-radius: 30%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 
+        inset 5px 5px 40px 20px #F8F8F8,
+        inset -5px -5px 40px 20px #F8F8F8,
+        5px 5px #F8F8F8,
+        -5px -5px #F8F8F8;
+}
+
+.slider-img {
+    border-radius: 31%;
+}
+
+.service {
+    text-align: center;
+    z-index: 1;
+}
+
+.service:hover  .service-img, .service:active  .service-img {
+    transform: translateY(-20px);
+}
+
+.service-img {
+    width: 4rem;
+    transition: all ease-in-out 0.5s;
+}
+
+.service-horizontal {
+    display: inline-block;
+}
+
+.service-caption {
+    text-indent: 0;
+    color: #000000;
+}
+
+.footer {
+    margin: 0;
+    padding: 1rem 4rem;
+    background-color: #DCDCDC;
+}
+
+.gallery-img {
+    object-fit: cover;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+}
+
+.form-request {
+    margin: 0 10rem;
+}
+
+.change-img {
+    width: 100%;
+    height: 100%;
+}
+
+.changes-images {
+    height: 35rem;
+}
+
+@media (max-width: 1199.98px) {
+    .form-request {
+        margin: 0 4rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+@media (max-width: 767.98px) {
+    .service-img {
+        width: 3rem;
+    }
+
+    .form-request {
+        margin: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .service-img {
+        width: 2rem;
+    }
+
+    .service-caption {
+        font-size: 0.75rem;
+    }
+
+    .content {
+        padding: 1.25rem;
+    }
+    
+    .footer {
+        padding: 1rem 0.7rem;
+    }
+
+    .table {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'frozenFont';
+    src: url('../fonts/7114.ttf');
+}
+
+body {
+    font-family: 'frozenFont';
+    color: #E0E0AA;
+    background-image: url('../img/background.jpg');
+    background-size: 100% 100%;;
+    background-attachment: fixed;
+}
+
+main > section {
+    background-image: url('../img/news/bg.jpg');
+    background-size: 100% 100%;
+    padding: 3rem 3rem 2rem 3rem;
+}
+
+section:first-child {
+    background-image: url('../img/news/bg-first.jpg');
+    background-size: 100% 100%;
+    padding: 5rem 3rem 2rem 3rem;
+}
+
+@media (max-width: 575.98px) {
+    main > section {
+        padding: 4rem 1rem 2rem 1rem;
+    }
+    
+    section:first-child {
+        padding: 5rem 1rem 2rem 1rem;
+    }
+}
+
+.btm-border {
+    background-image: url('../img/news/btm.jpg');
+    background-size: 100% 100%;
+    height: 6rem;
+}
+
+footer {
+    padding: 2rem 3rem 4rem 3rem;
+}
+
+h3 {
+    margin-bottom: 2rem;
+}
+
+h2, h3, h5 {
+    color: #ffd237;
+    text-shadow: 
+        black 1px 1px 9px,
+        black 3px 3px 9px,
+        black 5px 5px 9px;
+}
+
+.navbar {
+    background-image: url('../img/header.png');
+    background-size: 100% 140%;
+    padding: 1rem;
+}
+
+.navbar-nav {
+    margin: auto;
+    width: 100%;
+}
+
+.nav-link {
+    letter-spacing: .05rem;
+    color: #ffd237;
+    background-image: url('../img/buttons/default.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: .85rem;
+    margin: 0 .2rem 0 .2rem;
+}
+
+.nav-link:hover {
+    color: #ffd237;
+    background-image: url('../img/buttons/hover.png');
+    background-size: 100% 100%;
+}
+
+.nav-link:active {
+    color: #ffd237;
+    background-image: url('../img/buttons/active.png');
+    background-size: 100% 100%;
+}
+
+.nav-link > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+video {
+    box-shadow: 0 1rem 0.7rem rgba(0,0,0,0.5);
+}
+
+.video {
+    padding: 4rem 3rem 2rem 3rem;
+}
+
+.heroes div {
+    margin: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.heroes div img {
+    width: 5rem;
+    height: 5rem;
+}
+
+p { font-size: 1.15rem; }
+
+.p-indent { text-indent: 2rem; }
+
+.carousel-indicators li{
+    background-size: 100% 100%;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem 0 1rem;
+    opacity: 0.7;
+    cursor: pointer;
+    text-align:center;
+}
+
+.carousel-caption {
+    position: absolute;
+    width: 20rem;
+    top: 10%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    text-align: left;
+}
+
+.p-shadow {
+    text-shadow: 
+    black 1px 1px 11px,
+    black 3px 3px 11px,
+    black 5px 5px 11px;
+}
+
+.lowvision {
+    font-family: 'Arial';
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem;
+    background-color: #FAB10B;
+    color: #000;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+
+.lowvision:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.lowvision:active {
+    text-decoration: none;
+    color: #000;
+}
+
+.lowvision img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.img-shadow {
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.5);
+}
+
+.btn-top {
+    position: fixed;
+    opacity: 0.5;
+    right: 10rem;
+    bottom: 3rem;
+}
+
+.btn-top:hover {
+    opacity: 1;
+}
+
+.btn-top img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.footer {
+    color: #FCD347;
+    text-shadow: 
+    black 1px 1px 11px,
+    black 3px 3px 11px,
+    black 5px 5px 11px;
+    font-weight: 800;
+}
